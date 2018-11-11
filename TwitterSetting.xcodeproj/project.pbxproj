@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501ED77B21988C7100C55378 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501ED77A21988C7100C55378 /* UIKit.framework */; };
+		501ED77D21988C7100C55378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501ED77C21988C7100C55378 /* Foundation.framework */; };
+		501ED77F21988C7100C55378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501ED77E21988C7100C55378 /* CoreGraphics.framework */; };
+		501ED78821988C7100C55378 /* TwitterSetting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 501ED78721988C7100C55378 /* TwitterSetting.mm */; };
+		501ED7B221988C8E00C55378 /* FRPViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79321988C8E00C55378 /* FRPViewSection.h */; };
+		501ED7B321988C8E00C55378 /* FRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79421988C8E00C55378 /* FRPreferences.m */; };
+		501ED7B421988C8E00C55378 /* FRPListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79521988C8E00C55378 /* FRPListCell.h */; };
+		501ED7B521988C8E00C55378 /* FRPViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79621988C8E00C55378 /* FRPViewCell.m */; };
+		501ED7B621988C8E00C55378 /* FRPSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79721988C8E00C55378 /* FRPSettings.m */; };
+		501ED7B721988C8E00C55378 /* FRPSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79821988C8E00C55378 /* FRPSegmentCell.m */; };
+		501ED7B821988C8E00C55378 /* FRPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79921988C8E00C55378 /* FRPSection.m */; };
+		501ED7B921988C8E00C55378 /* FRPSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79A21988C8E00C55378 /* FRPSliderCell.m */; };
+		501ED7BA21988C8E00C55378 /* FRPTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79B21988C8E00C55378 /* FRPTextFieldCell.h */; };
+		501ED7BB21988C8E00C55378 /* FRPCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79C21988C8E00C55378 /* FRPCell.h */; };
+		501ED7BC21988C8E00C55378 /* FRPDeveloperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79D21988C8E00C55378 /* FRPDeveloperCell.h */; };
+		501ED7BD21988C8E00C55378 /* FRPSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED79E21988C8E00C55378 /* FRPSwitchCell.m */; };
+		501ED7BE21988C8E00C55378 /* FRPValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED79F21988C8E00C55378 /* FRPValueCell.h */; };
+		501ED7BF21988C8E00C55378 /* FRPSelectListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7A021988C8E00C55378 /* FRPSelectListTable.h */; };
+		501ED7C021988C8E00C55378 /* FRPLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A121988C8E00C55378 /* FRPLinkCell.m */; };
+		501ED7C121988C8E00C55378 /* FRPViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A221988C8E00C55378 /* FRPViewSection.m */; };
+		501ED7C221988C8E00C55378 /* FRPSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7A321988C8E00C55378 /* FRPSettings.h */; };
+		501ED7C321988C8E00C55378 /* FRPViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7A421988C8E00C55378 /* FRPViewCell.h */; };
+		501ED7C421988C8E00C55378 /* FRPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7A521988C8E00C55378 /* FRPreferences.h */; };
+		501ED7C521988C8E00C55378 /* FRPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A621988C8E00C55378 /* FRPListCell.m */; };
+		501ED7C621988C8E00C55378 /* FRPDeveloperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A721988C8E00C55378 /* FRPDeveloperCell.m */; };
+		501ED7C721988C8E00C55378 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A821988C8E00C55378 /* FRPCell.m */; };
+		501ED7C821988C8E00C55378 /* FRPTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7A921988C8E00C55378 /* FRPTextFieldCell.m */; };
+		501ED7C921988C8E00C55378 /* FRPSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7AA21988C8E00C55378 /* FRPSliderCell.h */; };
+		501ED7CA21988C8E00C55378 /* FRPSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7AB21988C8E00C55378 /* FRPSection.h */; };
+		501ED7CB21988C8E00C55378 /* FRPSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7AC21988C8E00C55378 /* FRPSegmentCell.h */; };
+		501ED7CC21988C8E00C55378 /* FRPLinkCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7AD21988C8E00C55378 /* FRPLinkCell.h */; };
+		501ED7CD21988C8E00C55378 /* FRPSelectListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7AE21988C8E00C55378 /* FRPSelectListTable.m */; };
+		501ED7CE21988C8E00C55378 /* FRPSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7AF21988C8E00C55378 /* FRPSwitchCell.h */; };
+		501ED7CF21988C8E00C55378 /* FRPValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 501ED7B021988C8E00C55378 /* FRPValueCell.m */; };
+		501ED7D021988C8E00C55378 /* FRPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 501ED7B121988C8E00C55378 /* FRPrefs.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		501ED77721988C7100C55378 /* TwitterSetting.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = TwitterSetting.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		501ED77A21988C7100C55378 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		501ED77C21988C7100C55378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		501ED77E21988C7100C55378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		501ED78321988C7100C55378 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		501ED78521988C7100C55378 /* TwitterSetting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterSetting-Prefix.pch"; sourceTree = "<group>"; };
+		501ED78621988C7100C55378 /* TwitterSetting.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = TwitterSetting.xm; sourceTree = "<group>"; };
+		501ED78721988C7100C55378 /* TwitterSetting.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TwitterSetting.mm; sourceTree = "<group>"; };
+		501ED78C21988C7100C55378 /* TwitterSetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TwitterSetting.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/TwitterSetting.plist; sourceTree = "<group>"; };
+		501ED79321988C8E00C55378 /* FRPViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewSection.h; sourceTree = "<group>"; };
+		501ED79421988C8E00C55378 /* FRPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPreferences.m; sourceTree = "<group>"; };
+		501ED79521988C8E00C55378 /* FRPListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPListCell.h; sourceTree = "<group>"; };
+		501ED79621988C8E00C55378 /* FRPViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewCell.m; sourceTree = "<group>"; };
+		501ED79721988C8E00C55378 /* FRPSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSettings.m; sourceTree = "<group>"; };
+		501ED79821988C8E00C55378 /* FRPSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSegmentCell.m; sourceTree = "<group>"; };
+		501ED79921988C8E00C55378 /* FRPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSection.m; sourceTree = "<group>"; };
+		501ED79A21988C8E00C55378 /* FRPSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSliderCell.m; sourceTree = "<group>"; };
+		501ED79B21988C8E00C55378 /* FRPTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPTextFieldCell.h; sourceTree = "<group>"; };
+		501ED79C21988C8E00C55378 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		501ED79D21988C8E00C55378 /* FRPDeveloperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPDeveloperCell.h; sourceTree = "<group>"; };
+		501ED79E21988C8E00C55378 /* FRPSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSwitchCell.m; sourceTree = "<group>"; };
+		501ED79F21988C8E00C55378 /* FRPValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPValueCell.h; sourceTree = "<group>"; };
+		501ED7A021988C8E00C55378 /* FRPSelectListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSelectListTable.h; sourceTree = "<group>"; };
+		501ED7A121988C8E00C55378 /* FRPLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPLinkCell.m; sourceTree = "<group>"; };
+		501ED7A221988C8E00C55378 /* FRPViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewSection.m; sourceTree = "<group>"; };
+		501ED7A321988C8E00C55378 /* FRPSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSettings.h; sourceTree = "<group>"; };
+		501ED7A421988C8E00C55378 /* FRPViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewCell.h; sourceTree = "<group>"; };
+		501ED7A521988C8E00C55378 /* FRPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPreferences.h; sourceTree = "<group>"; };
+		501ED7A621988C8E00C55378 /* FRPListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPListCell.m; sourceTree = "<group>"; };
+		501ED7A721988C8E00C55378 /* FRPDeveloperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPDeveloperCell.m; sourceTree = "<group>"; };
+		501ED7A821988C8E00C55378 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
+		501ED7A921988C8E00C55378 /* FRPTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPTextFieldCell.m; sourceTree = "<group>"; };
+		501ED7AA21988C8E00C55378 /* FRPSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSliderCell.h; sourceTree = "<group>"; };
+		501ED7AB21988C8E00C55378 /* FRPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSection.h; sourceTree = "<group>"; };
+		501ED7AC21988C8E00C55378 /* FRPSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSegmentCell.h; sourceTree = "<group>"; };
+		501ED7AD21988C8E00C55378 /* FRPLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPLinkCell.h; sourceTree = "<group>"; };
+		501ED7AE21988C8E00C55378 /* FRPSelectListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSelectListTable.m; sourceTree = "<group>"; };
+		501ED7AF21988C8E00C55378 /* FRPSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSwitchCell.h; sourceTree = "<group>"; };
+		501ED7B021988C8E00C55378 /* FRPValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPValueCell.m; sourceTree = "<group>"; };
+		501ED7B121988C8E00C55378 /* FRPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPrefs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501ED77321988C7100C55378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501ED77F21988C7100C55378 /* CoreGraphics.framework in Frameworks */,
+				501ED77B21988C7100C55378 /* UIKit.framework in Frameworks */,
+				501ED77D21988C7100C55378 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501ED76C21988C7100C55378 = {
+			isa = PBXGroup;
+			children = (
+				501ED78021988C7100C55378 /* TwitterSetting */,
+				501ED77921988C7100C55378 /* Frameworks */,
+				501ED77821988C7100C55378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501ED77821988C7100C55378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501ED77721988C7100C55378 /* TwitterSetting.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501ED77921988C7100C55378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				501ED77A21988C7100C55378 /* UIKit.framework */,
+				501ED77C21988C7100C55378 /* Foundation.framework */,
+				501ED77E21988C7100C55378 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		501ED78021988C7100C55378 /* TwitterSetting */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78621988C7100C55378 /* TwitterSetting.xm */,
+				501ED78721988C7100C55378 /* TwitterSetting.mm */,
+				501ED79221988C8E00C55378 /* FRPreferences */,
+				501ED78121988C7100C55378 /* Package */,
+				501ED78421988C7100C55378 /* Supporting Files */,
+			);
+			path = TwitterSetting;
+			sourceTree = "<group>";
+		};
+		501ED78121988C7100C55378 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78221988C7100C55378 /* DEBIAN */,
+				501ED78921988C7100C55378 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		501ED78221988C7100C55378 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78321988C7100C55378 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		501ED78421988C7100C55378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78521988C7100C55378 /* TwitterSetting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		501ED78921988C7100C55378 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78A21988C7100C55378 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		501ED78A21988C7100C55378 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78B21988C7100C55378 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		501ED78B21988C7100C55378 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				501ED78C21988C7100C55378 /* TwitterSetting.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		501ED79221988C8E00C55378 /* FRPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				501ED79321988C8E00C55378 /* FRPViewSection.h */,
+				501ED79421988C8E00C55378 /* FRPreferences.m */,
+				501ED79521988C8E00C55378 /* FRPListCell.h */,
+				501ED79621988C8E00C55378 /* FRPViewCell.m */,
+				501ED79721988C8E00C55378 /* FRPSettings.m */,
+				501ED79821988C8E00C55378 /* FRPSegmentCell.m */,
+				501ED79921988C8E00C55378 /* FRPSection.m */,
+				501ED79A21988C8E00C55378 /* FRPSliderCell.m */,
+				501ED79B21988C8E00C55378 /* FRPTextFieldCell.h */,
+				501ED79C21988C8E00C55378 /* FRPCell.h */,
+				501ED79D21988C8E00C55378 /* FRPDeveloperCell.h */,
+				501ED79E21988C8E00C55378 /* FRPSwitchCell.m */,
+				501ED79F21988C8E00C55378 /* FRPValueCell.h */,
+				501ED7A021988C8E00C55378 /* FRPSelectListTable.h */,
+				501ED7A121988C8E00C55378 /* FRPLinkCell.m */,
+				501ED7A221988C8E00C55378 /* FRPViewSection.m */,
+				501ED7A321988C8E00C55378 /* FRPSettings.h */,
+				501ED7A421988C8E00C55378 /* FRPViewCell.h */,
+				501ED7A521988C8E00C55378 /* FRPreferences.h */,
+				501ED7A621988C8E00C55378 /* FRPListCell.m */,
+				501ED7A721988C8E00C55378 /* FRPDeveloperCell.m */,
+				501ED7A821988C8E00C55378 /* FRPCell.m */,
+				501ED7A921988C8E00C55378 /* FRPTextFieldCell.m */,
+				501ED7AA21988C8E00C55378 /* FRPSliderCell.h */,
+				501ED7AB21988C8E00C55378 /* FRPSection.h */,
+				501ED7AC21988C8E00C55378 /* FRPSegmentCell.h */,
+				501ED7AD21988C8E00C55378 /* FRPLinkCell.h */,
+				501ED7AE21988C8E00C55378 /* FRPSelectListTable.m */,
+				501ED7AF21988C8E00C55378 /* FRPSwitchCell.h */,
+				501ED7B021988C8E00C55378 /* FRPValueCell.m */,
+				501ED7B121988C8E00C55378 /* FRPrefs.h */,
+			);
+			path = FRPreferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		501ED77421988C7100C55378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501ED7C321988C8E00C55378 /* FRPViewCell.h in Headers */,
+				501ED7C421988C8E00C55378 /* FRPreferences.h in Headers */,
+				501ED7BC21988C8E00C55378 /* FRPDeveloperCell.h in Headers */,
+				501ED7CA21988C8E00C55378 /* FRPSection.h in Headers */,
+				501ED7CB21988C8E00C55378 /* FRPSegmentCell.h in Headers */,
+				501ED7CC21988C8E00C55378 /* FRPLinkCell.h in Headers */,
+				501ED7BE21988C8E00C55378 /* FRPValueCell.h in Headers */,
+				501ED7D021988C8E00C55378 /* FRPrefs.h in Headers */,
+				501ED7BA21988C8E00C55378 /* FRPTextFieldCell.h in Headers */,
+				501ED7B221988C8E00C55378 /* FRPViewSection.h in Headers */,
+				501ED7C921988C8E00C55378 /* FRPSliderCell.h in Headers */,
+				501ED7C221988C8E00C55378 /* FRPSettings.h in Headers */,
+				501ED7CE21988C8E00C55378 /* FRPSwitchCell.h in Headers */,
+				501ED7B421988C8E00C55378 /* FRPListCell.h in Headers */,
+				501ED7BF21988C8E00C55378 /* FRPSelectListTable.h in Headers */,
+				501ED7BB21988C8E00C55378 /* FRPCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		501ED77621988C7100C55378 /* TwitterSetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501ED78F21988C7100C55378 /* Build configuration list for PBXNativeTarget "TwitterSetting" */;
+			buildPhases = (
+				501ED77121988C7100C55378 /* ShellScript */,
+				501ED77221988C7100C55378 /* Sources */,
+				501ED77321988C7100C55378 /* Frameworks */,
+				501ED77421988C7100C55378 /* Headers */,
+				501ED77521988C7100C55378 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterSetting;
+			productName = TwitterSetting;
+			productReference = 501ED77721988C7100C55378 /* TwitterSetting.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501ED76D21988C7100C55378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					501ED77621988C7100C55378 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 501ED77021988C7100C55378 /* Build configuration list for PBXProject "TwitterSetting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 501ED76C21988C7100C55378;
+			productRefGroup = 501ED77821988C7100C55378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501ED77621988C7100C55378 /* TwitterSetting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		501ED77121988C7100C55378 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		501ED77521988C7100C55378 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501ED77221988C7100C55378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501ED7C021988C8E00C55378 /* FRPLinkCell.m in Sources */,
+				501ED7B521988C8E00C55378 /* FRPViewCell.m in Sources */,
+				501ED7C521988C8E00C55378 /* FRPListCell.m in Sources */,
+				501ED7C621988C8E00C55378 /* FRPDeveloperCell.m in Sources */,
+				501ED7C821988C8E00C55378 /* FRPTextFieldCell.m in Sources */,
+				501ED7B621988C8E00C55378 /* FRPSettings.m in Sources */,
+				501ED7C121988C8E00C55378 /* FRPViewSection.m in Sources */,
+				501ED7B721988C8E00C55378 /* FRPSegmentCell.m in Sources */,
+				501ED7B321988C8E00C55378 /* FRPreferences.m in Sources */,
+				501ED7C721988C8E00C55378 /* FRPCell.m in Sources */,
+				501ED7BD21988C8E00C55378 /* FRPSwitchCell.m in Sources */,
+				501ED7CD21988C8E00C55378 /* FRPSelectListTable.m in Sources */,
+				501ED7B821988C8E00C55378 /* FRPSection.m in Sources */,
+				501ED7B921988C8E00C55378 /* FRPSliderCell.m in Sources */,
+				501ED7CF21988C8E00C55378 /* FRPValueCell.m in Sources */,
+				501ED78821988C7100C55378 /* TwitterSetting.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		501ED78D21988C7100C55378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"TwitterSetting\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501ED78E21988C7100C55378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"TwitterSetting\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		501ED79021988C7100C55378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JMV3RHX32;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterSetting/TwitterSetting-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.101;
+				MonkeyDevDevicePassword = 976431A5;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		501ED79121988C7100C55378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JMV3RHX32;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterSetting/TwitterSetting-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.8.101;
+				MonkeyDevDevicePassword = 976431A5;
+				MonkeyDevDevicePort = 22;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501ED77021988C7100C55378 /* Build configuration list for PBXProject "TwitterSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501ED78D21988C7100C55378 /* Release */,
+				501ED78E21988C7100C55378 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501ED78F21988C7100C55378 /* Build configuration list for PBXNativeTarget "TwitterSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501ED79021988C7100C55378 /* Release */,
+				501ED79121988C7100C55378 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501ED76D21988C7100C55378 /* Project object */;
+}
